@@ -1,0 +1,29 @@
+{
+  "name": "ngrokforward",
+  "version": "0.0.1",
+  "description": "Forwards requests to ngrok subdomains",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lylepratt/ngrokforward.git"
+  },
+  "keywords": [
+    "ngrok",
+    "proxy",
+    "forward"
+  ],
+  "author": "Lyle Pratt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lylepratt/ngrokforward/issues"
+  },
+  "homepage": "https://github.com/lylepratt/ngrokforward#readme",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "parse-domain": "^3.0.2"
+  }
+}
