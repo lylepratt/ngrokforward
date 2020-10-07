@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/lylepratt/ngrokforward#readme",
   "dependencies": {
-    "http-proxy": "^1.18.1",
-    "parse-domain": "^3.0.2"
+    "http-proxy": "^1.18.1"
   }
 }
