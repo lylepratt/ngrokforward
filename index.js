@@ -7,9 +7,9 @@ require('http').createServer(function(req, res) {
 
     var routes = req.url.split("/");
     var subdomain = routes[1];
-    var target = `https://${subdomain}.ngrok.io`
+    var target = `http://${subdomain}.ngrok.io`
     if(subdomain == "") {
-        target = "https://ngrok.com"
+        target = "http://ngrok.com"
     }    
     console.log(`Routing to: ${target}`);
     proxy.web(req, res, { target: target })
