@@ -6,6 +6,6 @@ require('http').createServer(function(req, res) {
     var target = `https://${subdomain}.ngrok.io`
     console.log(`Routing to: ${target}`);
     proxy.web(req, res, { target: target })
-}).listen(80, function () {
+}).listen(8080, function () {
     console.log("Waiting for requests...");
 });
